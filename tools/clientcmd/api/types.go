@@ -124,7 +124,7 @@ type AuthInfo struct {
 	// Impersonate is the username to act-as.
 	// +optional
 	Impersonate string `json:"act-as,omitempty"`
-	// ImpersonateGroups is the groups to imperonate.
+	// ImpersonateGroups is the groups to impersonate.
 	// +optional
 	ImpersonateGroups []string `json:"act-as-groups,omitempty"`
 	// ImpersonateUserExtra contains additional information for impersonated user.
